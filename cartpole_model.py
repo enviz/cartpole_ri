@@ -37,7 +37,7 @@ if not os.path.exists('new_models/model') or retrain:
 
     memory = deque(maxlen=2000)          
 
-    gamma = 0.95
+    gamma = 0.95                   #discount factor
 ##
 ##    if retrain:
 ##        model = tf.keras.models.load_model('new_models/model')                           
